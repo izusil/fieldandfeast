@@ -1,0 +1,305 @@
+/* CSS BY IZUMI */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+html {
+    background-color: black;
+    color: var(--dark-charcoal);
+}
+
+header,
+body,
+footer {
+    font-family: 'Playfair Display';
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: var(--linen);
+}
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    padding: 20px;
+}
+
+header p {
+    font-style: italic;
+    font-weight: 500;
+}
+
+header img {
+    width: 200px;
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+    margin: 25px 0px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+nav a:hover, nav a:focus {
+    color: var(--olive-green);
+}
+
+
+h2, h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--midnight-blue);
+    padding: 30px 0px 5px 30px;
+}
+
+body p, li {
+    font-size: .82em;
+    line-height: 1.45em;
+    padding: 2px 30px 5px 30px;
+}
+
+hr.yellowline {
+    border-top: solid 2px var(--champagne-gold);
+    color: var(--champagne-gold);
+    margin: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+section {
+    background-color: var(--olive-green);
+    color: var(--linen);
+    line-height: 1.25em;
+    border-radius: 10px;
+    margin: 10px 25px;
+    padding: 15px;
+}
+
+section h4 {
+    font-size: 1.45em;
+    font-weight: 800;
+    padding: 12px 0px 10px;
+}
+
+section p {
+    padding: 0;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+section li {
+    list-style-type: disc;
+    margin-left: 15px;
+    padding: 0px 10px 0px ;
+}
+
+article {
+    display: grid;
+    box-shadow: 0px 2px 5px var(--dark-charcoal);
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--midnight-blue);
+}
+
+/* MEDIA QUERY (medium) */
+
+@media screen and (min-width: 600px) {
+    /* CSS rules go here */
+}
+
+/* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+    /* CSS rules go here */
+}
+
+/* MEDIA QUERY (xl) */
+
+@media screen and (min-width: 1200px) {
+    /* CSS rules go here */
+}
